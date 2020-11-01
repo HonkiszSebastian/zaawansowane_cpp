@@ -2,6 +2,8 @@
 #include <initializer_list>
 #include <vector>
 
+// PB: Brak rozwiazania - zadanie niezaliczone
+
 using namespace std;
 
 template<typename T>

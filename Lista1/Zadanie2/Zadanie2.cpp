@@ -3,6 +3,8 @@
 
 auto lama = []( auto x, auto y) { return (x + y);};
 
+// PB: Błędny typ zwracany
+// PB: Niepotrzebne kopiowanie - argumenty powinny być przekazane przez stałe referencje
 template<typename T, typename U, typename W>
 T add2(T a, U b, W lama){
 
